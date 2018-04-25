@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('bodyParser');
 const morgan = require('morgan');
-const Marvel = require('./marvel');
+const Marvel = require('./marvel_model');
 const server = express();
 server.use(bodyParser.json());
 server.use(morgan('dev'));
